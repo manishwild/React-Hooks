@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+// import UseStateExample from './learnUseState/UseStateExample';
+// import UseStateObject from "./learnUseState/UseStateObject"
+// import UseStateArray from "./learnUseState/UseStateArray"
+// import UseStateCounter from './learnUseState/UseStateCounter'
+
+import Index from "./LearnUseReducer/Index"
+
+// import UseRefBasic from "./learnUseRef/UseRefBasic"
+
+// import MultipleInputs from "./forms/MultipleInputs"
+// import ControlledInputs from "./forms/ControlledInputs"
+
+// import MultipleReturns from "./conditional-rendering/MultipleReturns"
+// import ShortCircut from "./conditional-rendering/ShortCircut"
+// import ShowHide from "./conditional-rendering/ShowHide"
+
+// import UseEffectBasic from "./learnUseEffect/UseEffectBasic"
+// import UseEffectCleanUp from "./learnUseEffect/UseEffectCleanUp"
+// import UseEffectFetch from './learnUseEffect/UseEffectFetch';
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div className="container">
+      <h1>Advanced React Hooks</h1>
+      {/* <UseStateExample /> */}
+      {/* <UseStateArray /> */}
+      {/* <UseStateObject /> */}
+      {/* <UseStateCounter /> */}
+
+      {/* <UseEffectBasic /> */}
+      {/* <UseEffectCleanUp /> */}
+      {/* <UseEffectFetch /> */}
+
+      {/* <MultipleReturns /> */}
+      {/* <ShortCircut /> */}
+      {/* <ShowHide /> */}
+
+      {/* <ControlledInputs /> */}
+      {/* <MultipleInputs /> */}
+
+      {/* <UseRefBasic /> */}
+
+      <Index />
+      </div>
+  )
 }
 
-export default App;
+export default App
