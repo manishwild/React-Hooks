@@ -3,7 +3,12 @@
 // import UseStateArray from "./learnUseState/UseStateArray"
 // import UseStateCounter from './learnUseState/UseStateCounter'
 
-import Index from "./LearnUseReducer/Index"
+import CustomHook from "./CustomHooks/CustomHook"
+
+// import ContextApi from './ContextApi/ContextApi'
+// import PropDrilling from "./PropDrilling/PropDrilling"
+
+// import Index from "./LearnUseReducer/Index"
 
 // import UseRefBasic from "./learnUseRef/UseRefBasic"
 
@@ -18,13 +23,10 @@ import Index from "./LearnUseReducer/Index"
 // import UseEffectCleanUp from "./learnUseEffect/UseEffectCleanUp"
 // import UseEffectFetch from './learnUseEffect/UseEffectFetch';
 
-
-
 function App() {
-  
   return (
     <div className="container">
-      <h1>Advanced React Hooks</h1>
+      <h1>React Hooks</h1>
       {/* <UseStateExample /> */}
       {/* <UseStateArray /> */}
       {/* <UseStateObject /> */}
@@ -43,9 +45,15 @@ function App() {
 
       {/* <UseRefBasic /> */}
 
-      <Index />
-      </div>
+      {/* <Index /> */}
+
+      {/* <PropDrilling /> */}
+
+      {/* <ContextApi /> */}
+
+      <CustomHook />
+    </div>
   )
 }
-
+// 40
 export default App
