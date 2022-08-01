@@ -1,19 +1,19 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 
 export const useFetch = (url) => {
   const [loading, setLoading] = useState(true)
   const [products, setProducts] = useState([])
 
-  const getProducts = async () => {
+  const getProducts = useCallback(async () => {
     const response = await fetch(url)
     const result = await response.json()
     setProducts(result)
     setLoading(false)
-  }
+  },[url])
 
   useEffect(() => {
     getProducts()
-  }, [url])
+  }, [url,getProducts])
   
   return {loading, products}
 }
